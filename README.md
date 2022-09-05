@@ -39,7 +39,7 @@ jobs:
 When we run `affected` command on [Nx](https://nx.dev/), we can specify 2 git history positions - base and head, and it calculates [which projects in your repository changed
 between those 2 commits](https://nx.dev/node-tutorial/07-test-affected-projects#test-affected-projects). We can then run a set of tasks (like building or linting) only on those **affected** projects.
 
-This makes it easy to set-up a CI system that scales well with the continous growth of your repository, as you add more and more projects.
+This makes it easy to set-up a CI system that scales well with the continuous growth of your repository, as you add more and more projects.
 
 ### Problem
 
